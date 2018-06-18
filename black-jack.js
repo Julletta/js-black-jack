@@ -26,7 +26,7 @@ function getSum(hand) {
     return sum;
 }
 
-alert('Дьявольское везение! BlacknJack на раздаче! $_$');
+alert('Дьявольское везение! Black Jack на раздаче! $_$');
 var answer = '';
 do {
     answer = prompt(getStatus() + 'Хотите еще карту? 1 - да, иначе - нет');
