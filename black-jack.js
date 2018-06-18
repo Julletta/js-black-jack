@@ -33,7 +33,6 @@ do {
     if (answer == '1') {
         player.push(getCard());
     }
-}
 var dealer = [getCard();
 var dealer = [getCard(), getCard()];
 
