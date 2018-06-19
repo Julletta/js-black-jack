@@ -38,7 +38,7 @@ function getStatus() {
 }
 
 var dealer = [getCard()];
-var player = [getCard(), getcard()];
+var player = [getCard(), getCard()];
 
 
 
