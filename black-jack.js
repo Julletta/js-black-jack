@@ -21,9 +21,15 @@ function getSum(hand) {
     return sum;
 }
 
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+
+}
+
 function getCard() {
-    // TODO: Написать функцию которая возвращает карту
-    return 7
+    var cards = ['6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+    return cards [getRandomInt(0, cards.length - 1)];
+
 }
 
 var dealer = [];
