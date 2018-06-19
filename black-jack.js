@@ -32,12 +32,15 @@ function getCard() {
 
 }
 
-var dealer = [];
-var player = [];
-
 function getStatus() {
-    return 'Дилер: ' + dealer.join() + ' Игрок: ' + player.join() + '.';
+    return 'Дилер: ' + dealer.join ('') + '.';
+
 }
+
+var dealer = [getCard()];
+var player = [getCard(), getcard()];
+
+
 
 alert('Дьявольское везение! Black Jack на раздаче! $_$');
 var answer = '';
