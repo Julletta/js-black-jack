@@ -32,7 +32,7 @@ function getCard() {
 
 }
 
-var dealer = [];  
+var dealer = [];
 var player = [];
 
 function getStatus() {
