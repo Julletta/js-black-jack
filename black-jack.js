@@ -38,7 +38,7 @@ function getCard() {
 function getStatus() {
 
     return 'Дилер: ' + dealer.join('') + '. Игрок: ' + player.join('');
-
+    
 }
 
 
