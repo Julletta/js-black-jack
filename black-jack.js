@@ -26,19 +26,20 @@ function getRandomInt(min, max) {
 
 }
 
+var dealer = [];
+var player = [];
+
 function getCard() {
     var cards = ['6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+
     return cards [getRandomInt(0, cards.length - 1)];
 
 }
-
 function getStatus() {
-    return 'Дилер: ' + dealer.join ('') + '.';
+
+    return 'Дилер: ' + dealer.join('') + '. Игрок: ' + player.join('');
 
 }
-
-var dealer = [getCard()];
-var player = [getCard(), getCard()];
 
 
 
